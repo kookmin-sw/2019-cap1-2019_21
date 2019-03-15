@@ -8,6 +8,8 @@
 
 ### 3. 팀 소개
 
+![Link](file:///C:/Users/wjdgm/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20190315_132427731.jpg)
+
 팀장 원정희
 
 학번 : 20165155
