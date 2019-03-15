@@ -7,10 +7,22 @@
 
 
 ### 3. 팀 소개
+<img width="90" src="file:///C:/Users/wjdgm/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20190315_132427731.jpg">
 팀장 원정희
+학번 : 20165155
+하드웨어 센서 개발
+<img width="90" src="file:///C:/Users/wjdgm/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20190315_190422265.jpg">
 팀원 이우재
+학번 : 20165157
+서버 담당
+<img width="90" src="file:///C:/Users/wjdgm/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20190315_184305860.jpg">
 팀원 주연호
+학번 : 20152899
+안드로이드 어플 개발
+<img width="90" src="file:///C:/Users/wjdgm/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20190315_190948986.jpg">
 팀원 조현우
+학번 : 20165162
+DB 관리 및 개발
 ### 4. 사용법
 
 소스코드제출시 설치법이나 사용법을 작성하세요.
