@@ -8,7 +8,7 @@
 
 ### 3. 팀 소개
 
-
+<img src="https://user-images.githubusercontent.com/40515241/54430638-8c25c580-4767-11e9-90d0-982814e05f26.jpg" width="20%">
 
 팀장 원정희
 
@@ -16,7 +16,7 @@
 
 하드웨어 센서 개발
 
-<img src="file:///C:/Users/wjdgm/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20190315_132427731.jpg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/40515241/54430644-90ea7980-4767-11e9-879b-a30367df519c.jpg" width="20%">
 
 팀원 이우재
 
@@ -24,11 +24,15 @@
 
 서버 담당
 
+<img src="https://user-images.githubusercontent.com/40515241/54430642-8f20b600-4767-11e9-9ff8-98e666cd7d7d.jpg" width="20%">
+
 팀원 주연호
 
 학번 : 20152899
 
 안드로이드 어플 개발
+
+<img src="https://user-images.githubusercontent.com/40515241/54430647-91831000-4767-11e9-89a1-6be10a26eab8.jpg" width="20%">
 
 팀원 조현우
 
