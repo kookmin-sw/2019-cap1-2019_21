@@ -8,7 +8,7 @@
 
 ### 3. 팀 소개
 
-<img src="https://user-images.githubusercontent.com/40515241/54430638-8c25c580-4767-11e9-90d0-982814e05f26.jpg" width="20%">
+<img src="https://user-images.githubusercontent.com/40515241/54431873-e411fb80-476a-11e9-8cc4-4af1f6f0dab4.jpg" width="20%">
 
 팀장 원정희
 
