@@ -6,7 +6,9 @@
 
 ### 계획서 소개
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1KHgPiiWDEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/1KHgPiiWDEw" rel="nofollow">
+<image src="https://user-images.githubusercontent.com/37957608/54471809-b7a9be00-4802-11e9-9bb4-d91a9bd79cba.JPG">
+</a>
 
 
 ###  팀 소개
