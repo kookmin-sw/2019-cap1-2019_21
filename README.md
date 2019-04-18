@@ -1,10 +1,11 @@
 ## 캡스톤 디자인 21조 귀농팀
-### 야 너도 키울 수 있어 스마트팜 (야스)
+### 야 너도 키울 수 있어 스마트팟 (야스)
 
 소개 페이지 : https://kookmin-sw.github.io/2019-cap1-2019_21/.
 
-현재 농촌에는 고령화 및 인구감소로 인해 노동력이 부족한 것이 현실이다. 하지만 요즘 젊은 세대들 또한 농촌에서 사는 것을 꺼려하기 때문에 노동력을 대체 할 만한 방안이 필요하다.  
- 그에 따라 농촌 사업에 iot(사물인터넷)을 접목하여 통제된 최적의 생육환경을 자동으로 제어하는 시설에서 안정적 생산을 하여 부족한 노동력을 대체하고 나아가 최적화된 생육환경이 유지되므로 단위 면적당 생산량이 높아지는등 생산성 향상을 기대한다.
+이 프토젝트는 작물을 키울 수 있는 스마트팜을 축소한 형태로 기존의 대규모의 스마트팜 보다 축소하여 비용적인 측면을 줄이고 접근성을 향상 시킨다.
+작물이 자랄 수 있는 최적의 환경을 구축 할 수 있게 센서들을 사용하여 스마트팜을 구성하고 또한 집에 있지 않아도 원격으로 조종하여 관리를 할 수 있다.
+그리고 궁국적으로 스마트팜에 사용될 최적의 생육환경을 구축하기 위한 데이터 모으는데 목적이 있다.
 
 ### 계획서 소개
 
@@ -51,39 +52,11 @@
 
 *DB 관리 및 개발
 
-### 4. 사용법
-
-소스코드제출시 설치법이나 사용법을 작성하세요.
-
-### 5. 기타
-
-추가적인 내용은 자유롭게 작성하세요.
+### 4. Abstract
 
 
-## Markdown을 사용하여 내용꾸미기
+The project shrinks the smart farm to grow crops, reducing the costs and accessibility of the farm by shrinking it compared to traditional large farms.
+Smart farms can be configured using sensors to create the optimal environment for growing crops, and can be managed remotely without being at home.
+And ultimately to gather data for building optimal growth environments for smart farms.
 
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
