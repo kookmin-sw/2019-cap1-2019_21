@@ -55,7 +55,7 @@
 ### 4. Abstract
 
 
-The project shrinks size of the smart farm to grow crops, reducing the costs and accessibility of the farm by shrinking it compared to traditional large farms.
+The project shrinks the size of the smart farm to grow crops, reducing the costs and accessibility of the farm by shrinking it compared to traditional large farms.
 Smart farms can be configured using sensors to create the optimal environment for growing crops, and can be managed remotely without being at home.
 And ultimately to gather data for building optimal growth environments for smart farms.
 
