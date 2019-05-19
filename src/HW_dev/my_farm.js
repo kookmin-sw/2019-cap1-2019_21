@@ -1,9 +1,9 @@
-const awsIot =require('aws-iot-device-sdk');
-//const  = require('/mnt/c/Users/wjdgm/my_farm/connect_device_package');
-var five =require('johnny-five');
+var awsIot =require('aws-iot-device-sdk');
+var five = require("johnny-five");
 var events =require('events');
-var emitter = new events.EventEmitter();
-const device = awsIot.device({
+var eventEmitter=new events.EventEmitter();
+var board = new five.Board();
+var device = awsIot.device({
     keyPath: 'my_farm.private.key',
     certPath: 'my_farm.cert.pem',
     caPath: 'root-CA.crt',
@@ -12,28 +12,70 @@ const device = awsIot.device({
     host:'a28jgqlr4nhpzv-ats.iot.us-west-2.amazonaws.com'
 });
 
-var contents ="Start....!!!";
-
-device.on('connect',function () {
+var timestamp = Math.floor(+ new Date()/60000);
+device.on('connect',function() {
+    console.log(timestamp)
     console.log("connect");
-   // device.publish('farm_control_policy', JOSN.stringify({test_date:"world..."}));
-    console.log("Message Sent ...");
+    device.subscribe('my/smartpot');
+    //device.publish('my/smartpot',JSON.stringify({"row":this.barometer.pressure,"pos":3}));
+    console.log('Set shadow value.');
 });
-device.on('message',function (topic,payload) {
-    console.log('connect',topic,payload.toString());
-})
 
-var board =new five.Board();
-board.on('ready', function () {
-    var LED = new five.Led({
-        pin:5
-    })
-    emitter.on('blink',function (ms) {
-        LED.blink(ms);
+device.on('connect',function(topic,payload) {
+    console.log('CONNECT')
+});
+board.on("ready",function(){
+    var multi = new five.Multi({
+        controller: "BME280",
+        freq:10000
     });
-    emitter.on('ledoff',function () {
-        LED.off();
+    multi.on("data", function(){
+        console.log("celsius     : ",this.thermometer.celsius);
+        console.log("fahrenheit  : ",this.thermometer.fahrenheit);
+        console.log("kelvin      : ",this.thermometer.kelvin);
+        console.log("---------------------------");
 
+        console.log("Barometer");
+        console.log("pressure    : ",this.barometer.pressure);
+        console.log("---------------------------");
+
+        console.log("Hygrometer");
+        console.log("humidity    : ",this.hygrometer.relativeHumidity);
+        console.log("---------------------------");
+
+        console.log("Altimeter");
+        console.log("feet        : ",this.altimeter.feet);
+        console.log("meters      : ",this.altimeter.meters);
+        console.log("---------------------------");
+        device.publish('my/smartpot', JSON.stringify({"row": this.hygrometer.relativeHumidity, "pos": timestamp}));
+
+    });
+});
+
+board.on('ready',function () {
+    var motors = new five.Motors([
+        {pins:{dir:4,pwm:5},invertPWM:true},
+        {pins:{dir:7,pwm:6},invertPWM:true}
+    ]);
+
+    board.repl.inject({
+        motors:motors
+    });
+    console.log('fan ahead!');
+    motors[1].start(255);
+    board.wait(5000,function () {
+        motors.stop();
+    });
+
+    console.log("water motor")
+    motors[0].start(255);
+    board.wait(5000,function () {
+        motors.stop()
     })
-    console.log("UNO is connected!");
-})
+
+    console.log('Done auto-driving! Use')
+});
+
+
+
+
