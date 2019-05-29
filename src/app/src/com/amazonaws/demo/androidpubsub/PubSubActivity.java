@@ -105,9 +105,9 @@ public class PubSubActivity extends Activity {
     KeyStore clientKeyStore = null;
     String certificateId;
     private int current_temper;
-    private int setting_temper;
+    //public static int setting_temper = 25;
     private int current_soilMoi;
-    private int setting_soilMoi;
+    //public static int setting_soilMoi = 200;
 
 
 
@@ -206,15 +206,13 @@ public class PubSubActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setting_temper = 25;
-        current_temper = 25;
 
-        setting_soilMoi =0;
-        current_soilMoi =0;
+
 
         txtSubcribe = findViewById(R.id.txtSubcribe);
         txtTopic = findViewById(R.id.txtTopic);
         txtMessage = findViewById(R.id.txtMessage);
+        //txtMessage.setText(setting_temper+","+setting_soilMoi);
 
         tvLastMessage = findViewById(R.id.tvLastMessage);
         tvClientId = findViewById(R.id.tvClientId);
@@ -357,10 +355,9 @@ public class PubSubActivity extends Activity {
         }
     }
 
-    public void onSetButtonClicked(View v){
+    public void onFinishButtonClicked(View v){
 
-            Intent intent = new Intent(getApplicationContext(), SetActivity.class);
-            startActivity(intent);
+            finish();
 
         }
     }

@@ -86,7 +86,7 @@
             android:layout_weight="5"
             android:gravity="center_vertical"
             android:hint="Topic name"
-            android:text="$aws/things/my_farm/shadow/update" />
+            android:text="aws/things/my_farm/shadow/update/gat" />
 
         <Button
             android:id="@+id/btnSubscribe"
@@ -136,7 +136,7 @@
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:gravity="center_vertical"
-            android:text="$aws/things/my_farm/shadow/update" />
+            android:text="aws/things/my_farm/shadow/update/gat" />
     </LinearLayout>
 
     <LinearLayout
@@ -145,6 +145,14 @@
         android:layout_weight="1"
         android:orientation="horizontal" >
 
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:onClick="onFinishButtonClicked"
+            android:text="돌아가기" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -152,27 +160,19 @@
             android:gravity="center_vertical"
             android:text="Message:" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:onClick="onSetButtonClicked"
-            android:text="setting" />
-
         <EditText
             android:id="@+id/txtMessage"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:gravity="center_vertical"
-            android:text='{ "state": { "desired" : { "temper" : 25,             "soilMoi" : "200" }  }  }' />
+            android:text="25,200" />
     </LinearLayout>
 
     <Button
         android:id="@+id/btnPublish"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="63dp"
         android:layout_gravity="left"
         android:onClick="publishClick"
         android:text="Publish" />
