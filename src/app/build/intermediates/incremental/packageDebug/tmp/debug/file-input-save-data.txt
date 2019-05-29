@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 30 05:06:52 KST 2019
+#Thu May 30 06:45:52 KST 2019
 4.path=lib/arm64-v8a/libconscrypt_jni.so
 13.baseType=DIRECTORY
 8.set=DEX

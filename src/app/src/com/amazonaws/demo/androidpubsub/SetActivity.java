@@ -1,12 +1,15 @@
 package com.amazonaws.demo.androidpubsub;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -60,14 +63,26 @@ public class SetActivity extends AppCompatActivity {
 
         editor.commit();
 
+        /*((PubSubActivity)PubSubActivity.mContext).connectClick(PubSubActivity.btnConnect);
+        ((PubSubActivity)PubSubActivity.mContext).subscribeClick(View view);
+        ((PubSubActivity)PubSubActivity.mContext).publishClick(View view);*/
 
+        /*LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.activity_main, null);
+        Button btnConnect = (Button)view.findViewById(R.id.btnConnect);
+        Button btnSubscribe = (Button)view.findViewById(R.id.btnSubscribe);
+        Button btnPublish = (Button)view.findViewById(R.id.btnPublish);
+            PubSubActivity mContext = new PubSubActivity();
+         ((PubSubActivity)PubSubActivity.mContext).connectClick(mContext.btnConnect);
+        ((PubSubActivity)PubSubActivity.mContext).subscribeClick(mContext.btnSubscribe);
+        ((PubSubActivity)PubSubActivity.mContext).publishClick(mContext.btnPublish);
+        확인을 누르면 절차들이 진행이 자동으로 될수있도록.
 
-
-
-
+        */
 
         finish();
     }
+
     public void temperUpButtonClicked(View v){
 
         setting_temper++;

@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="FIELD_ADDED"
     plugin-version="3.4.1"
-    timestamp="1559165127783"
+    timestamp="1559169947784"
     token="-5222037011056859346"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="385" />
+        duration="508" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="60" />
+        duration="108" />
     <task
         name="verifier"
-        duration="25" />
+        duration="23" />
 
     <artifact
         location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -30,28 +30,13 @@
 
     <build
         build-mode="FULL"
-        timestamp="1559158880727"
+        timestamp="1559166347219"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
+            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\instant-run-apk\debug\AndroidPubSub-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -60,39 +45,16 @@
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\instant-run-apk\debug\AndroidPubSub-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559160407409"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -101,19 +63,19 @@
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\instant-run-apk\debug\AndroidPubSub-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="FIELD_ADDED"
-        timestamp="1559165127783"
+        timestamp="1559169947784"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\build\intermediates\split-apk\debug\slices\slice_7.apk"

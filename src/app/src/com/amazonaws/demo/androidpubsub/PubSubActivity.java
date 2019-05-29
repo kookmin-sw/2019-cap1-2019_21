@@ -16,6 +16,7 @@
 package com.amazonaws.demo.androidpubsub;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -85,6 +86,10 @@ public class PubSubActivity extends Activity {
     reported put("current_temper","25"); */
 
 
+    public static Context mContext; // 다른 activity에서 사용하기 위해서
+
+
+
     EditText txtSubcribe;
     EditText txtTopic;
     EditText txtMessage;
@@ -94,6 +99,8 @@ public class PubSubActivity extends Activity {
     TextView tvStatus;
 
     Button btnConnect;
+    Button btnSubscribe;
+    Button btnPublish;
     //TextView
 
     AWSIotClient mIotAndroidClient;
@@ -208,13 +215,12 @@ public class PubSubActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
         txtSubcribe = findViewById(R.id.txtSubcribe);
         txtTopic = findViewById(R.id.txtTopic);
 
         txtMessage = findViewById(R.id.txtMessage);
+         btnSubscribe = (Button)findViewById(R.id.btnSubscribe);
+         btnPublish = (Button)findViewById(R.id.btnPublish);
         /*Intent intent = getIntent();
         Data dataIot = (Data)intent.getSerializableExtra("dataIot");
 
@@ -253,7 +259,15 @@ public class PubSubActivity extends Activity {
                 Log.e(LOG_TAG, "onError: ", e);
             }
         });
+
+
+
+        mContext=this;
     }
+
+
+
+
 
     void initIoTClient() {
         Region region = Region.getRegion(MY_REGION);
