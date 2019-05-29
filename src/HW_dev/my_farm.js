@@ -4,7 +4,8 @@ var schedule = require('node-schedule');
 var exec_photo = require('child_process').exec;
 require("date-utils");
 var newDate=new Date();
-var time = newDate.toFormat("YYYY-MM-DD HH24:MI:SS");
+var time = newDate.toFormat("YYYY-MM-DD");
+var time1 = newDate.toFormat("HH24:MI:SS");
 var board = new five.Board();
 var device = awsIot.device({
     keyPath: 'my_farm.private.key',
@@ -14,7 +15,6 @@ var device = awsIot.device({
     region: 'us-west-2',
     host:'a28jgqlr4nhpzv-ats.iot.us-west-2.amazonaws.com'
 });
-
 var rule = new schedule.RecurrenceRule();
 rule.second = 10;
 
@@ -33,40 +33,51 @@ var j = schedule.scheduleJob(rule, function(){
     });
 
 });
-
-
+var soildata;
+var temp1=30;
+var soilmo=200;
 device.on('connect',function() {
     console.log(time);
 
     console.log("connect");
-    device.subscribe('my/smartpot');
-    //device.publish('my/smartpot',JSON.stringify({"row":this.barometer.pressure,"pos":time}));
-    console.log('Set shadow value.');
+    device.subscribe('my_farm');
 });
 
-board.on("ready",function(){
-    var multi = new five.Multi({
-        controller: "BME280",
-        freq:10000
+device
+    .on('message', function(topic, payload) {
+        var app = payload.toString().split(",");
+        temp1=app[0];
+        soilmo=app[1];
     });
-    var motors = new five.Motors([
-        {pins:{dir:4,pwm:5},invertPWM:true},
-        {pins:{dir:7,pwm:6},invertPWM:true}
-    ]);
+
+board.on("ready",function(){
     var soil = new five.Sensor({
         pin:3,
         freq:10000
     });
+    var multi = new five.Multi({
+        controller: "BME280",
+        freq:10000
+    });
 
-    soil.on("change",function () {
-        console.log(this.value)
-        if (this.value< 100 || 600>this.value)
+    var motors = new five.Motors([
+        {pins:{dir:4,pwm:5},invertPWM:true},
+        {pins:{dir:7,pwm:6},invertPWM:true}
+    ]);
+
+
+    soil.on("data",function () {
+        console.log("soil data : "+this.value)
+        soildata = this.value;
+        if (this.value< soilmo )
             console.log("water motor")
         motors[0].start(255);
         board.wait(5000,function () {
             motors.stop()
         })
-    })
+    });
+    var relay = new five.Relay(10);
+
 
     multi.on("data", function(){
         console.log("celsius     : ",this.thermometer.celsius);
@@ -86,12 +97,14 @@ board.on("ready",function(){
         console.log("feet        : ",this.altimeter.feet);
         console.log("meters      : ",this.altimeter.meters);
         console.log("---------------------------");
-        device.publish('my/smartpot', JSON.stringify({"row": time, "pos": Number(this.thermometer.celsius)}));
-        if (Number(this.thermometer.celsius)>20){
+        device.publish('my/smartpot2', JSON.stringify({"row": time, "pos":time1,"temp":this.thermometer.celsius,"soil":String(soildata),"humi":this.hygrometer.relativeHumidity}));
+        if (Number(this.thermometer.celsius)>temp1){
             console.log('fan ahead!');
-            board.wait(10000,function(){
-                motors.start(255);
-            });
+            motors.start(255);
+            relay.on();
+        }else{
+            relay.off();
+            motors.stop();
         }
 
     });
