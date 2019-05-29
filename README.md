@@ -9,7 +9,7 @@
 
 ### 계획서 소개
 
-<a href="https://youtu.be/1KHgPiiWDEw" rel="nofollow">
+<a href="https://youtu.be/9Cl_g1w_-hk" rel="nofollow">
 <image src="https://user-images.githubusercontent.com/37957608/54471809-b7a9be00-4802-11e9-9bb4-d91a9bd79cba.JPG">
 </a>
 
