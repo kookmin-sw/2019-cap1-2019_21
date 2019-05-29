@@ -17,6 +17,7 @@ package com.amazonaws.demo.androidpubsub;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -105,9 +106,9 @@ public class PubSubActivity extends Activity {
     KeyStore clientKeyStore = null;
     String certificateId;
     private int current_temper;
-    private int setting_temper;
+    //public static int setting_temper = 25;
     private int current_soilMoi;
-    private int setting_soilMoi;
+    //public static int setting_soilMoi = 200;
 
 
 
@@ -121,6 +122,7 @@ public class PubSubActivity extends Activity {
      setting_data = current_data
      이렇게 해주기 위해서
     */
+    SharedPreferences pref;
 
     public void connectClick(final View view) {
         Log.d(LOG_TAG, "clientId = " + clientId);
@@ -206,15 +208,25 @@ public class PubSubActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setting_temper = 25;
-        current_temper = 25;
 
-        setting_soilMoi =0;
-        current_soilMoi =0;
+
 
         txtSubcribe = findViewById(R.id.txtSubcribe);
         txtTopic = findViewById(R.id.txtTopic);
+
         txtMessage = findViewById(R.id.txtMessage);
+        /*Intent intent = getIntent();
+        Data dataIot = (Data)intent.getSerializableExtra("dataIot");
+
+        txtMessage.setText(String.valueOf(dataIot.setting_temper)+","+String.valueOf(dataIot.setting_soilMoi));*/
+
+         pref = getSharedPreferences("pref", MODE_PRIVATE);
+         int setting_temper=0;
+         int setting_soilMoi=0;
+        pref.getInt("setting_temper",setting_temper); //key, value(defaults)
+        pref.getInt("setting_soilMoi",setting_soilMoi);
+        txtMessage.setText(String.valueOf(pref.getInt("setting_temper",setting_temper)
+                +","+pref.getInt("setting_soilMoi",setting_soilMoi)));
 
         tvLastMessage = findViewById(R.id.tvLastMessage);
         tvClientId = findViewById(R.id.tvClientId);
@@ -357,10 +369,9 @@ public class PubSubActivity extends Activity {
         }
     }
 
-    public void onSetButtonClicked(View v){
+    public void onFinishButtonClicked(View v){
 
-            Intent intent = new Intent(getApplicationContext(), SetActivity.class);
-            startActivity(intent);
+            finish();
 
         }
     }

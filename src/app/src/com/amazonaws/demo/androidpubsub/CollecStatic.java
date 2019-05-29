@@ -1,12 +1,12 @@
-/*package com.amazonaws.demo.androidpubsub;
+package com.amazonaws.demo.androidpubsub;
 
 import android.app.Application;
 
 public class CollecStatic extends Application {
-    private int current_temper;
-    private int setting_temper;
-    private int current_soilMoi;
-    private int setting_soilMoi;
+    private int current_temper=25;
+    private int setting_temper=25;
+    private int current_soilMoi=200;
+    private int setting_soilMoi=200;
 
     public int getCurrent_temper(){
         return current_temper;
@@ -38,4 +38,3 @@ public class CollecStatic extends Application {
 
 }
 
-*/

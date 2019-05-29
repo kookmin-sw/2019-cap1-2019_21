@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12
+MERGED from [com.amazonaws:aws-android-sdk-iot:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\0e3bd6c90bac16b26c9ef7695f9e4f71\AndroidManifest.xml:1:1-3:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f1fa5e1e0f66e9f7b62e71034076c354\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\bd4e5fa6bb4f73dbbf0bc0744c4e580d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\6b8a551afc410059933dcecbbde16ed7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5d98e2b4d22667f5c2c92b763fe4a862\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\47b6e96e47063c7fb3d372d75609356c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\972b1933e6be32e559a707ab3cccd17a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\6ea0c32cf239593a00a96c6a0aefde65\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f4ac5bc66a32e4cf3b4018aeff3dcff7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\566dff25adee1daa3f3e975593cfc2ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\c6ece2c3225e9954086c3810f0d8687c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\21eb670bd4cd1378883e6ce7c37fcffb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\1e5ebdbf0d25c9ebc8ab7cfe5ae44be8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\9b0c7ecb7028e72fe63f96cdb621ab40\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\2e8812f2b3f6e2c6c32d97f728a4de9f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\a9d8f5aa58cd92654226f0ea453e25e8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\3d91bde77df2b70469fa076fefc03532\AndroidManifest.xml:2:1-4:80
+MERGED from [org.conscrypt:conscrypt-android:2.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\e9911b1878790a5306ad082dccf38b00\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\efa61af35f9c08952d92feb0509163dd\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\1d536191c72e0e02ba2cd7ca440ab184\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\d841fafe144b5305597432ea8b86bd61\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\3e6477456e7723c23f11ada93df3be1c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\01e4ad107562d9e9ec38538b098576b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\10cd6bb2f5e16513fa5d2daff6900079\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\02a2a3222718ed1c3966466b24994103\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\242553f32808a57f8a5567d19b8ede86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f65c5b076c12d9a368000d4cd3ce11e3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\041966fe5f30affd8aeb764a0606dcb5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5efd5d8f06b71bb889c1db4b6cb9a345\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:3:5-47
+	android:versionName
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:7:5-67
+MERGED from [com.amazonaws:aws-android-sdk-iot:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\0e3bd6c90bac16b26c9ef7695f9e4f71\AndroidManifest.xml:2:5-66
+MERGED from [com.amazonaws:aws-android-sdk-iot:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\0e3bd6c90bac16b26c9ef7695f9e4f71\AndroidManifest.xml:2:5-66
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:6:5-66
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:7:22-64
+supports-screens
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:9:5-13:40
+	android:largeScreens
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:10:9-36
+	android:smallScreens
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:12:9-36
+	android:normalScreens
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:11:9-37
+	android:xlargeScreens
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:13:9-37
+application
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:15:5-32:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\a9d8f5aa58cd92654226f0ea453e25e8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\a9d8f5aa58cd92654226f0ea453e25e8\AndroidManifest.xml:9:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\e9911b1878790a5306ad082dccf38b00\AndroidManifest.xml:11:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\e9911b1878790a5306ad082dccf38b00\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\efa61af35f9c08952d92feb0509163dd\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\efa61af35f9c08952d92feb0509163dd\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:17:9-45
+	android:allowBackup
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:20:9-38
+activity#com.amazonaws.demo.androidpubsub.MainActivity
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:22:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:26:27-74
+activity#com.amazonaws.demo.androidpubsub.SetActivity
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:29:9-49
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:29:19-46
+activity#com.amazonaws.demo.androidpubsub.PubSubActivity
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:30:9-51
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:30:19-49
+uses-sdk
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:4:5-73
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f1fa5e1e0f66e9f7b62e71034076c354\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f1fa5e1e0f66e9f7b62e71034076c354\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\bd4e5fa6bb4f73dbbf0bc0744c4e580d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\bd4e5fa6bb4f73dbbf0bc0744c4e580d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\6b8a551afc410059933dcecbbde16ed7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\6b8a551afc410059933dcecbbde16ed7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5d98e2b4d22667f5c2c92b763fe4a862\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5d98e2b4d22667f5c2c92b763fe4a862\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\47b6e96e47063c7fb3d372d75609356c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\47b6e96e47063c7fb3d372d75609356c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\972b1933e6be32e559a707ab3cccd17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\972b1933e6be32e559a707ab3cccd17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\6ea0c32cf239593a00a96c6a0aefde65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\6ea0c32cf239593a00a96c6a0aefde65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f4ac5bc66a32e4cf3b4018aeff3dcff7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f4ac5bc66a32e4cf3b4018aeff3dcff7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\566dff25adee1daa3f3e975593cfc2ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\566dff25adee1daa3f3e975593cfc2ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\c6ece2c3225e9954086c3810f0d8687c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\c6ece2c3225e9954086c3810f0d8687c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\21eb670bd4cd1378883e6ce7c37fcffb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\21eb670bd4cd1378883e6ce7c37fcffb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\1e5ebdbf0d25c9ebc8ab7cfe5ae44be8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\1e5ebdbf0d25c9ebc8ab7cfe5ae44be8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\9b0c7ecb7028e72fe63f96cdb621ab40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\9b0c7ecb7028e72fe63f96cdb621ab40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\2e8812f2b3f6e2c6c32d97f728a4de9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\2e8812f2b3f6e2c6c32d97f728a4de9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\a9d8f5aa58cd92654226f0ea453e25e8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\a9d8f5aa58cd92654226f0ea453e25e8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\3d91bde77df2b70469fa076fefc03532\AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\3d91bde77df2b70469fa076fefc03532\AndroidManifest.xml:4:1-69
+MERGED from [org.conscrypt:conscrypt-android:2.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\e9911b1878790a5306ad082dccf38b00\AndroidManifest.xml:7:5-9:41
+MERGED from [org.conscrypt:conscrypt-android:2.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\e9911b1878790a5306ad082dccf38b00\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\efa61af35f9c08952d92feb0509163dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\efa61af35f9c08952d92feb0509163dd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\1d536191c72e0e02ba2cd7ca440ab184\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\1d536191c72e0e02ba2cd7ca440ab184\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\d841fafe144b5305597432ea8b86bd61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\d841fafe144b5305597432ea8b86bd61\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\3e6477456e7723c23f11ada93df3be1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\3e6477456e7723c23f11ada93df3be1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\01e4ad107562d9e9ec38538b098576b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\01e4ad107562d9e9ec38538b098576b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\10cd6bb2f5e16513fa5d2daff6900079\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\10cd6bb2f5e16513fa5d2daff6900079\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\02a2a3222718ed1c3966466b24994103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\02a2a3222718ed1c3966466b24994103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\242553f32808a57f8a5567d19b8ede86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\242553f32808a57f8a5567d19b8ede86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f65c5b076c12d9a368000d4cd3ce11e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f65c5b076c12d9a368000d4cd3ce11e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\041966fe5f30affd8aeb764a0606dcb5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\041966fe5f30affd8aeb764a0606dcb5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5efd5d8f06b71bb889c1db4b6cb9a345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5efd5d8f06b71bb889c1db4b6cb9a345\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12 reason: com.amazonaws.iot has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12 reason: com.amazonaws.iot has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-34:12 reason: com.amazonaws.iot requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:7:22-76

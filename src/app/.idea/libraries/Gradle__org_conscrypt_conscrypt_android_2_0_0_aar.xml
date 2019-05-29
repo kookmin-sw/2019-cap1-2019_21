@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.conscrypt:conscrypt-android:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9911b1878790a5306ad082dccf38b00/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9911b1878790a5306ad082dccf38b00/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.conscrypt/conscrypt-android/2.0.0/cedd00aeee89451b54eb4dd54e385b2249553521/conscrypt-android-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
