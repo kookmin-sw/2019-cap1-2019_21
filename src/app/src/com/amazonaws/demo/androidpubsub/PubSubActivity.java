@@ -16,7 +16,9 @@
 package com.amazonaws.demo.androidpubsub;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -84,6 +86,10 @@ public class PubSubActivity extends Activity {
     reported put("current_temper","25"); */
 
 
+    public static Context mContext; // 다른 activity에서 사용하기 위해서
+
+
+
     EditText txtSubcribe;
     EditText txtTopic;
     EditText txtMessage;
@@ -92,7 +98,11 @@ public class PubSubActivity extends Activity {
     TextView tvClientId;
     TextView tvStatus;
 
+    TextView receiveMsg;
+
     Button btnConnect;
+    Button btnSubscribe;
+    Button btnPublish;
     //TextView
 
     AWSIotClient mIotAndroidClient;
@@ -121,6 +131,7 @@ public class PubSubActivity extends Activity {
      setting_data = current_data
      이렇게 해주기 위해서
     */
+    SharedPreferences pref;
 
     public void connectClick(final View view) {
         Log.d(LOG_TAG, "clientId = " + clientId);
@@ -167,6 +178,21 @@ public class PubSubActivity extends Activity {
                                         Log.d(LOG_TAG, "Message arrived:");
                                         Log.d(LOG_TAG, "   Topic: " + topic);
                                         Log.d(LOG_TAG, " Message: " + message);
+                                        String[] val = message.split(",");
+                                        String msg_temper = val[0];
+                                        String msg_soilMoi = val[1];
+                                        //String msg_moi = val[2];좀있다 테스트
+                                        receiveMsg.setText(message);
+                                        int current_temper = Integer.parseInt(String.valueOf(msg_temper));
+                                        int current_soilMoi = Integer.parseInt(String.valueOf(msg_soilMoi));
+                                        //int current_moi = Integer.parseInt(String.valueOf(msg_moi)); 좀있다 테스트
+
+                                        pref = getSharedPreferences("pref", MODE_PRIVATE);
+                                        SharedPreferences.Editor editor = pref.edit();
+                                        editor.putInt("current_temper", current_temper);
+                                        editor.putInt("current_soilMoi",current_soilMoi);
+                                        //editor.putInt("current_moi",current_moi); 좀있다 테스트
+
 
                                         tvLastMessage.setText(message);
                                     } catch (UnsupportedEncodingException e) {
@@ -186,6 +212,7 @@ public class PubSubActivity extends Activity {
         final String msg = txtMessage.getText().toString();
 
         try {
+
             mqttManager.publishString(msg, topic, AWSIotMqttQos.QOS0);
         } catch (Exception e) {
             Log.e(LOG_TAG, "Publish error.", e);
@@ -206,13 +233,25 @@ public class PubSubActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
         txtSubcribe = findViewById(R.id.txtSubcribe);
         txtTopic = findViewById(R.id.txtTopic);
+
         txtMessage = findViewById(R.id.txtMessage);
-        //txtMessage.setText(setting_temper+","+setting_soilMoi);
+         btnSubscribe = (Button)findViewById(R.id.btnSubscribe);
+         btnPublish = (Button)findViewById(R.id.btnPublish);
+         receiveMsg = findViewById(R.id.receiveMsg);
+        /*Intent intent = getIntent();
+        Data dataIot = (Data)intent.getSerializableExtra("dataIot");
+
+        txtMessage.setText(String.valueOf(dataIot.setting_temper)+","+String.valueOf(dataIot.setting_soilMoi));*/
+
+         pref = getSharedPreferences("pref", MODE_PRIVATE);
+         int setting_temper=0;
+         int setting_soilMoi=0;
+        pref.getInt("setting_temper",setting_temper); //key, value(defaults)
+        pref.getInt("setting_soilMoi",setting_soilMoi);
+        txtMessage.setText(String.valueOf(pref.getInt("setting_temper",setting_temper)
+                +","+pref.getInt("setting_soilMoi",setting_soilMoi)));
 
         tvLastMessage = findViewById(R.id.tvLastMessage);
         tvClientId = findViewById(R.id.tvClientId);
@@ -239,7 +278,15 @@ public class PubSubActivity extends Activity {
                 Log.e(LOG_TAG, "onError: ", e);
             }
         });
+
+
+
+        mContext=this;
     }
+
+
+
+
 
     void initIoTClient() {
         Region region = Region.getRegion(MY_REGION);

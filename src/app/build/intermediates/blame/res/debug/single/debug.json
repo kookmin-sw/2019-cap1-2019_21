@@ -1352,6 +1352,10 @@
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\layout_activity_current.xml.flat",
+        "source": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\res\\layout\\activity_current.xml"
+    },
+    {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },

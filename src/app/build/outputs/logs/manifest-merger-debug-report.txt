@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12
 MERGED from [com.amazonaws:aws-android-sdk-iot:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\0e3bd6c90bac16b26c9ef7695f9e4f71\AndroidManifest.xml:1:1-3:12
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f1fa5e1e0f66e9f7b62e71034076c354\AndroidManifest.xml:17:1-22:12
@@ -34,8 +34,8 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JYH\.gra
 MERGED from [com.android.support:print:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\f65c5b076c12d9a368000d4cd3ce11e3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\041966fe5f30affd8aeb764a0606dcb5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\5efd5d8f06b71bb889c1db4b6cb9a345\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:3:5-47
 	android:versionName
@@ -67,7 +67,7 @@ ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-s
 	android:xlargeScreens
 		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:13:9-37
 application
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:15:5-36:19
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:15:5-31:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\a9d8f5aa58cd92654226f0ea453e25e8\AndroidManifest.xml:9:5-20
@@ -79,37 +79,41 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JYH\.gradl
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\710ac6c9b4378dc338ea5e9afabf334b\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:17:9-45
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:18:9-45
 	android:allowBackup
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:20:9-38
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:16:9-37
+activity#com.amazonaws.demo.androidpubsub.CurrentActivity
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:21:19-50
 activity#com.amazonaws.demo.androidpubsub.MainActivity
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:21:9-27:20
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:21:19-47
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:26:27-74
 activity#com.amazonaws.demo.androidpubsub.SetActivity
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:28:9-49
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:29:9-49
 	android:name
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:28:19-46
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:29:19-46
 activity#com.amazonaws.demo.androidpubsub.PubSubActivity
-ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:29:9-35:20
+ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:30:9-52
 	android:name
-		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:29:19-49
+		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:30:19-49
 uses-sdk
 INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
@@ -185,11 +189,11 @@ INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-androi
 		ADDED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
 		INJECTED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12 reason: com.amazonaws.iot has a targetSdkVersion < 4
+IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12 reason: com.amazonaws.iot has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12 reason: com.amazonaws.iot has a targetSdkVersion < 4
+IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12 reason: com.amazonaws.iot has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-38:12 reason: com.amazonaws.iot requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\JYH\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\AndroidPubSub\AndroidManifest.xml:2:1-33:12 reason: com.amazonaws.iot requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.13.5] C:\Users\JYH\.gradle\caches\transforms-2\files-2.1\da9854f421032c455f6db25cce9a8786\AndroidManifest.xml:7:5-78
 	android:name

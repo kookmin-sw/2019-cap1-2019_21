@@ -86,7 +86,7 @@
             android:layout_weight="5"
             android:gravity="center_vertical"
             android:hint="Topic name"
-            android:text="aws/things/my_farm/shadow/update/gat" />
+            android:text="my_farm" />
 
         <Button
             android:id="@+id/btnSubscribe"
@@ -136,7 +136,7 @@
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:gravity="center_vertical"
-            android:text="aws/things/my_farm/shadow/update/gat" />
+            android:text="my_farm" />
     </LinearLayout>
 
     <LinearLayout
@@ -154,7 +154,7 @@
             android:text="돌아가기" />
 
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="74dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:gravity="center_vertical"
@@ -162,11 +162,16 @@
 
         <EditText
             android:id="@+id/txtMessage"
-            android:layout_width="0dp"
+            android:layout_width="94dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:gravity="center_vertical"
-            android:text="25,200" />
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/receiveMsg"
+            android:layout_width="118dp"
+            android:layout_height="231dp"
+            android:layout_weight="0" />
     </LinearLayout>
 
     <Button
