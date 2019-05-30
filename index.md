@@ -13,7 +13,7 @@
 <image src="https://user-images.githubusercontent.com/37957608/54471809-b7a9be00-4802-11e9-9bb4-d91a9bd79cba.JPG">
 
 
-
+#### 좀되라
 ###  팀 소개
 
 
