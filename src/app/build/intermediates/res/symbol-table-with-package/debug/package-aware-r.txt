@@ -683,6 +683,8 @@ id btnConnect
 id btnDisconnect
 id btnPublish
 id btnSubscribe
+id button10
+id button11
 id button2
 id button3
 id button4
@@ -725,6 +727,11 @@ id guideline
 id guideline2
 id guideline3
 id guideline4
+id guideline5
+id guideline6
+id guideline7
+id guideline8
+id guideline9
 id home
 id homeAsUp
 id icon
@@ -742,6 +749,7 @@ id listMode
 id list_item
 id message
 id middle
+id moiCur
 id multiply
 id never
 id none
@@ -756,6 +764,7 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id receiveMsg
 id right
 id right_icon
 id right_side
@@ -779,6 +788,7 @@ id showCustom
 id showHome
 id showTitle
 id small
+id soilMoiCur
 id soilMoiSet
 id spacer
 id split_action_bar
@@ -795,6 +805,7 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id temperCur
 id temperSet
 id text
 id text2
@@ -802,6 +813,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
 id time
 id title
 id titleDividerNoCustom
@@ -853,6 +867,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_current
 layout activity_main
 layout activity_main2
 layout activity_set

@@ -54,6 +54,9 @@ import java.util.UUID;
 
 
 public class PubSubActivity extends Activity {
+    static float current_temper;
+    static float current_soilMoi;
+    static float current_moi;
 
     static final String LOG_TAG = PubSubActivity.class.getCanonicalName();
 
@@ -98,6 +101,8 @@ public class PubSubActivity extends Activity {
     TextView tvClientId;
     TextView tvStatus;
 
+    TextView receiveMsg;
+
     Button btnConnect;
     Button btnSubscribe;
     Button btnPublish;
@@ -112,12 +117,10 @@ public class PubSubActivity extends Activity {
 
     KeyStore clientKeyStore = null;
     String certificateId;
-    private int current_temper;
+    //private int current_temper;
     //public static int setting_temper = 25;
-    private int current_soilMoi;
+    //private int current_soilMoi;
     //public static int setting_soilMoi = 200;
-
-
 
     TextView temperSet;
     TextView soilMoiSet;
@@ -176,6 +179,23 @@ public class PubSubActivity extends Activity {
                                         Log.d(LOG_TAG, "Message arrived:");
                                         Log.d(LOG_TAG, "   Topic: " + topic);
                                         Log.d(LOG_TAG, " Message: " + message);
+                                        String[] msg = message.split(" ");
+                                        String[] val = msg[1].split(",");
+                                        String msg_temper = val[0];
+                                        String msg_soilMoi = val[1];
+                                        String msg_moi = val[2];//좀있다 테스트
+                                        receiveMsg.setText(message);
+                                        float current_temper = Float.parseFloat(msg_temper);
+                                        float current_soilMoi = Float.parseFloat(msg_soilMoi);
+                                        float current_moi = Float.parseFloat(msg_moi); //좀있다 테스트
+
+                                        pref = getSharedPreferences("pref", MODE_PRIVATE);
+                                        SharedPreferences.Editor editor = pref.edit();
+                                        editor.putFloat("current_temper", current_temper);
+                                        editor.putFloat("current_soilMoi",current_soilMoi);
+                                        editor.putFloat("current_moi",current_moi); //좀있다 테스트
+                                        editor.commit();
+
 
                                         tvLastMessage.setText(message);
                                     } catch (UnsupportedEncodingException e) {
@@ -195,6 +215,7 @@ public class PubSubActivity extends Activity {
         final String msg = txtMessage.getText().toString();
 
         try {
+
             mqttManager.publishString(msg, topic, AWSIotMqttQos.QOS0);
         } catch (Exception e) {
             Log.e(LOG_TAG, "Publish error.", e);
@@ -221,6 +242,7 @@ public class PubSubActivity extends Activity {
         txtMessage = findViewById(R.id.txtMessage);
          btnSubscribe = (Button)findViewById(R.id.btnSubscribe);
          btnPublish = (Button)findViewById(R.id.btnPublish);
+         receiveMsg = findViewById(R.id.receiveMsg);
         /*Intent intent = getIntent();
         Data dataIot = (Data)intent.getSerializableExtra("dataIot");
 

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="520dba61-eb5d-499f-b633-4d0b1a447d52" name="Default" comment="hw_dev camera &amp; update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dual_motor.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_farm.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_farm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.ps1" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,9 +61,9 @@
     <session id="-315173946">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -78,22 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/aws-iot-device-sdk/examples/device-example.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_farm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="2508">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
@@ -397,8 +388,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="10" />
+    <option name="x" value="255" />
+    <option name="y" value="15" />
     <option name="width" value="981" />
     <option name="height" value="1107" />
   </component>
@@ -490,16 +481,17 @@
       <workItem from="1554797938287" duration="862000" />
       <workItem from="1558885258595" duration="188000" />
       <workItem from="1559121451132" duration="16000" />
+      <workItem from="1559213806200" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13256000" />
+    <option name="totallyTimeSpent" value="13274000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="7" width="654" height="738" extended-state="0" />
+    <frame x="170" y="10" width="654" height="738" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3181818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32996634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_farm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="2508">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>

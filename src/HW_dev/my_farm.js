@@ -4,7 +4,7 @@ var schedule = require('node-schedule');
 var exec_photo = require('child_process').exec;
 require("date-utils");
 var newDate=new Date();
-var time = newDate.toFormat("YYYY-MM-DD");
+var time = newDate.toFormat("YYYY-MM-DD.HH24:MI:SS");
 var time1 = newDate.toFormat("HH24:MI:SS");
 var board = new five.Board();
 var device = awsIot.device({
@@ -48,6 +48,7 @@ device
         var app = payload.toString().split(",");
         temp1=app[0];
         soilmo=app[1];
+        console.log(temp1,soilmo);
     });
 
 board.on("ready",function(){
@@ -64,16 +65,23 @@ board.on("ready",function(){
         {pins:{dir:4,pwm:5},invertPWM:true},
         {pins:{dir:7,pwm:6},invertPWM:true}
     ]);
+    var stepper = new five.Stepper({
+        type:five.Stepper.TYPE.DRIVER,
+        stepsPerRev:200,
+        pins:[11,12],
+        direction:five.Stepper.DIRECTION.CW
+    });
 
 
     soil.on("data",function () {
         console.log("soil data : "+this.value)
         soildata = this.value;
-        if (this.value< soilmo )
+        console.log(soilmo);
+        if (Number(this.value)< soilmo )
             console.log("water motor")
         motors[0].start(255);
         board.wait(5000,function () {
-            motors.stop()
+            motors[0].stop()
         })
     });
     var relay = new five.Relay(10);
@@ -97,14 +105,22 @@ board.on("ready",function(){
         console.log("feet        : ",this.altimeter.feet);
         console.log("meters      : ",this.altimeter.meters);
         console.log("---------------------------");
-        device.publish('my/smartpot2', JSON.stringify({"row": time, "pos":time1,"temp":this.thermometer.celsius,"soil":String(soildata),"humi":this.hygrometer.relativeHumidity}));
+        device.publish('won', JSON.stringify(" "+this.thermometer.celsius +','+String(soildata)+','+this.hygrometer.relativeHumidity+" "));
+        device.publish('my/smartpot2', JSON.stringify({"row":time, "pos":this.thermometer.celsius,"temp":this.thermometer.celsius,"soil":String(soildata),"humi":this.hygrometer.relativeHumidity}));
+        console.log(temp1);
         if (Number(this.thermometer.celsius)>temp1){
-            console.log('fan ahead!');
+            console.log('fan on , heat off');
             motors.start(255);
+            stepper.direction(1).step(2000, function() {
+                console.log("Done stepping!");
+            });
             relay.on();
         }else{
             relay.off();
             motors.stop();
+            stepper.direction(1).step(2000, function() {
+                console.log("Done stepping!");
+            });
         }
 
     });
