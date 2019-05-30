@@ -13,6 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:background="#9400640A"
         android:text="온도 :"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -25,6 +26,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="35dp"
+        android:background="#9400640A"
         android:text="토양습도 : "
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -37,6 +39,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="35dp"
+        android:background="#9400640A"
         android:text="습도 :"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -47,14 +50,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="39dp" />
+        app:layout_constraintGuide_begin="27dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#9400640A"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="237dp" />
+        app:layout_constraintGuide_begin="226dp" />
 
     <TextView
         android:id="@+id/temperCur"
@@ -63,6 +67,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:background="#9400640A"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
@@ -74,6 +79,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="35dp"
+        android:background="#9400640A"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/temperCur" />
@@ -85,6 +91,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="35dp"
+        android:background="#9400640A"
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/soilMoiCur" />
@@ -110,6 +117,7 @@
         android:layout_marginTop="524dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="#9400640A"
         android:onClick="onBackButtonClicked"
         android:text="돌아가기"
         app:layout_constraintEnd_toEndOf="parent"

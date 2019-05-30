@@ -10,11 +10,16 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#9400640A"
         android:onClick="onOKButtonClicked"
         android:text="확인"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,8 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="70dp"
+        android:background="#9400640A"
         android:text="온도:"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
@@ -36,8 +43,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
+        android:background="#9400640A"
         android:text="토양습도:"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
@@ -47,14 +56,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="16dp" />
+        app:layout_constraintGuide_begin="-22dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="136dp" />
+        app:layout_constraintGuide_begin="131dp" />
 
     <TextView
         android:id="@+id/temperSet"
@@ -62,8 +71,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="70dp"
+        android:background="#9400640A"
         android:text="25"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
@@ -74,8 +85,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
+        android:background="#9400640A"
         android:text="200"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
@@ -84,8 +97,9 @@
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#9400640A"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="224dp" />
+        app:layout_constraintGuide_begin="222dp" />
 
     <Button
         android:id="@+id/button4"
@@ -94,8 +108,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="8dp"
+        android:background="#9400640A"
         android:onClick="temperUpButtonClicked"
         android:text="up"
+        android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintStart_toStartOf="@+id/guideline3" />
@@ -106,9 +122,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="35dp"
+        android:background="#9400640A"
         android:onClick="temperDownButtonClicked"
         android:text="down"
+        android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3" />
@@ -119,9 +137,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
+        android:background="#9400640A"
         android:onClick="soilMoiUpButtonClicked"
         android:text="up"
+        android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
@@ -133,8 +153,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="8dp"
+        android:background="#9400640A"
         android:onClick="soilMoiDownButtonClicked"
         android:text="down"
+        android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
@@ -144,6 +166,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="264dp" />
+        app:layout_constraintGuide_begin="311dp" />
 
 </android.support.constraint.ConstraintLayout>

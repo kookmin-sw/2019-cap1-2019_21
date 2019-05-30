@@ -536,6 +536,10 @@
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\layout_activity_launcher.xml.flat",
+        "source": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\res\\layout\\activity_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\drawable\\abc_btn_colored_material.xml"
     },
@@ -606,6 +610,10 @@
     {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_pot1.jpg.flat",
+        "source": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\res\\drawable\\pot1.jpg"
     },
     {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
@@ -1208,6 +1216,10 @@
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_pot3.png.flat",
+        "source": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\res\\drawable\\pot3.png"
+    },
+    {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -1234,6 +1246,10 @@
     {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\f1fa5e1e0f66e9f7b62e71034076c354\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_images.jpg.flat",
+        "source": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\res\\drawable\\images.jpg"
     },
     {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1270,6 +1286,10 @@
     {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\JYH\\.gradle\\caches\\transforms-2\\files-2.1\\710ac6c9b4378dc338ea5e9afabf334b\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable_pot2.png.flat",
+        "source": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\res\\drawable\\pot2.png"
     },
     {
         "merged": "C:\\Users\\JYH\\Desktop\\aws-sdk-android-samples-master\\aws-sdk-android-samples-master\\AndroidPubSub\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",

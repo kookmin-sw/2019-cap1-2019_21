@@ -631,6 +631,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_launcher
+drawable images
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -643,6 +644,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pot1
+drawable pot2
+drawable pot3
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -816,6 +820,7 @@ id textView2
 id textView3
 id textView4
 id textView5
+id textView6
 id time
 id title
 id titleDividerNoCustom
@@ -868,6 +873,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_current
+layout activity_launcher
 layout activity_main
 layout activity_main2
 layout activity_set
@@ -1087,6 +1093,7 @@ style Base_Widget_AppCompat_Spinner_Underlined
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style LauncherTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

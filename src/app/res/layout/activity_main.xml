@@ -7,7 +7,8 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="3dp"
-    tools:context=".PubSubActivity">
+    tools:context=".PubSubActivity"
+    android:background="@color/colorPrimaryDark">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -86,7 +87,7 @@
             android:layout_weight="5"
             android:gravity="center_vertical"
             android:hint="Topic name"
-            android:text="my_farm" />
+            android:text="won" />
 
         <Button
             android:id="@+id/btnSubscribe"
@@ -147,11 +148,11 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="163dp"
             android:layout_weight="0"
-            android:onClick="onFinishButtonClicked"
-            android:text="돌아가기" />
+            android:background="?attr/actionModeCloseDrawable"
+            android:onClick="onFinishButtonClicked" />
 
         <TextView
             android:layout_width="74dp"
@@ -164,13 +165,13 @@
             android:id="@+id/txtMessage"
             android:layout_width="94dp"
             android:layout_height="match_parent"
-            android:layout_weight="5"
+            android:layout_weight="0"
             android:gravity="center_vertical" />
 
         <TextView
             android:id="@+id/receiveMsg"
             android:layout_width="118dp"
-            android:layout_height="231dp"
+            android:layout_height="match_parent"
             android:layout_weight="0" />
     </LinearLayout>
 
