@@ -19,12 +19,22 @@ public class SetActivity extends AppCompatActivity {
 
     TextView temperSet;
     TextView soilMoiSet;
+    //TextView humiSet; 습도 설정 필요없음
+
     //CollecStatic setStat = new CollecStatic();
     /*CollecStatic setStat = (CollecStatic)getApplicationContext();
     int setting_temper = setStat.getSetting_temper();
     int setting_soilMoi = setStat.getSetting_soilMoi();*/
-    static int setting_temper = 25;
-    static int setting_soilMoi = 200;
+    static int setting_temper =25 ;
+    static int setting_soilMoi =200 ;
+
+
+    //static int current_temper;
+    //static int current_soilMoi;
+
+
+
+
     private SharedPreferences pref;
 
     static int REQUEST_CODE_ALPHA = 100;
@@ -32,6 +42,14 @@ public class SetActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_set);
+
+
+
+
+
+
+
+
 
 
         temperSet =findViewById(R.id.temperSet);
@@ -42,6 +60,7 @@ public class SetActivity extends AppCompatActivity {
         temperSet.setText(strTem);
         String strSoilMoi = String.valueOf(setting_soilMoi);
         soilMoiSet.setText(strSoilMoi);
+
 
     }
 
@@ -56,7 +75,7 @@ public class SetActivity extends AppCompatActivity {
         Intent intent = new Intent(SetActivity.this, MainActivity.class);
         intent.putExtra("data",data);
         startActivityForResult(intent,REQUEST_CODE_ALPHA);*/
-         pref = getSharedPreferences("pref", MODE_PRIVATE);
+        pref = getSharedPreferences("pref", MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
         editor.putInt("setting_temper", setting_temper);
         editor.putInt("setting_soilMoi",setting_soilMoi);
@@ -79,6 +98,9 @@ public class SetActivity extends AppCompatActivity {
         확인을 누르면 절차들이 진행이 자동으로 될수있도록.
 
         */
+        //setting_temper = current_temper;
+        //setting_soilMoi = current_soilMoi;
+
 
         finish();
     }

@@ -33,4 +33,13 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    public void onCurrentEnButtonClicked(View v){
+        Intent intent = new Intent(getApplicationContext(), CurrentActivity.class);
+
+
+        startActivity(intent);
+    }
+
+
 }
