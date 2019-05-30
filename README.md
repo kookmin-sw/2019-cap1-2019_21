@@ -38,7 +38,7 @@
 
 <img src="https://user-images.githubusercontent.com/40515241/54430642-8f20b600-4767-11e9-9ff8-98e666cd7d7d.jpg" width="20%">
 
-*팀원 주연호
+**팀원 주연호
 
 *학번 : 20152899
 
