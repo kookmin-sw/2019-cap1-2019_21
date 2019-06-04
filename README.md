@@ -36,13 +36,15 @@
 
 *서버 담당
 
-<img src="https://user-images.githubusercontent.com/40515241/54430642-8f20b600-4767-11e9-9ff8-98e666cd7d7d.jpg" width="20%">
+
+<img src="https://user-images.githubusercontent.com/21361397/58920828-d8811000-876e-11e9-81cb-c402b9adb891.jpg" width="20%">
 
 **팀원 주연호
 
 *학번 : 20152899
 
 *안드로이드 어플 개발
+
 
 <img src="https://user-images.githubusercontent.com/40515241/54430647-91831000-4767-11e9-89a1-6be10a26eab8.jpg" width="20%">
 
@@ -51,6 +53,7 @@
 *학번 : 20165162
 
 *DB 관리 및 개발
+
 
 ### 4. Abstract
 
