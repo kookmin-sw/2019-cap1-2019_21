@@ -25,7 +25,7 @@
 
 *학번 : 20165155
 
-*하드웨어 센서 개발
+*하드웨어 센서 & 서버 개발
 
 
 <img src="https://user-images.githubusercontent.com/40515241/54430644-90ea7980-4767-11e9-879b-a30367df519c.jpg" width="20%">
